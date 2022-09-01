@@ -6,8 +6,8 @@
         "typeRoots": ["./node_modules/@types"],
         "declaration": true, 
         "sourceMap": true, 
-        "outDir": "./js/dist", 
-        "rootDir": "./js/src", 
+        "outDir": "ts-dist", 
+        "rootDir": "./ts", 
         "strict": false, 
         "moduleResolution": "node", 
         "esModuleInterop": true, 
@@ -16,5 +16,4 @@
         "skipLibCheck": true, 
         "forceConsistentCasingInFileNames": true 
     }, 
-    "exclude": ["./js/dist"] 
 }

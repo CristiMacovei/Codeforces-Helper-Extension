@@ -5,7 +5,7 @@
 assets/
 
 # compiled js code
-js/dist/
+ts-dist/
 
 # ts dependendencies
 node_modules/

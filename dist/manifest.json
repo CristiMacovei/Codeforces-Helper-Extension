@@ -5,7 +5,8 @@
   "version": "1.0.0",
   "author": "Cristi Macovei",
   "action": {
-    "default_popup": "popup/index.html"
+    "default_popup": "html/popup.html"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "host_permissions": ["https://codeforces.com/"]
 }

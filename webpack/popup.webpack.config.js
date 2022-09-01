@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './js/src/popup/index.ts',
+  entry: './ts/popup/index.ts',
   module: {
     rules: [
       {
@@ -16,6 +16,6 @@ module.exports = {
   },
   output: {
     filename: 'popup.js',
-    path: path.resolve(__dirname, '../js/dist/bundles')
+    path: path.resolve(__dirname, '../dist/js-bundles')
   }
 };
