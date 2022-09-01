@@ -6,3 +6,6 @@ assets/
 
 # compiled js code
 js/dist/
+
+# ts dependendencies
+node_modules/

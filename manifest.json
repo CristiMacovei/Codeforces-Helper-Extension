@@ -6,5 +6,6 @@
   "author": "Cristi Macovei",
   "action": {
     "default_popup": "popup/index.html"
-  }
+  },
+  "permissions": ["storage"]
 }

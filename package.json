@@ -1,0 +1,21 @@
+{
+  "name": "codeforces-extension",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsdev": "tsc -w",
+    "bundle-popup": "npx webpack-cli build -c ./webpack/popup.webpack.config.js",
+    "bundle-all": "npm run bundle-popup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.195",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
