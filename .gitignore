@@ -1,0 +1,8 @@
+# prettier
+.prettierrc.json
+
+# images
+assets/
+
+# compiled js code
+js/dist/

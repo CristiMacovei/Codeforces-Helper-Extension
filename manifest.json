@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Assistant",
+  "description": "An extension to help with various misc stuff on codeforces.com",
+  "version": "1.0.0",
+  "author": "Cristi Macovei",
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}
