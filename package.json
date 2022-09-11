@@ -5,11 +5,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsdev": "tsc -w",
-    "bundle-popup": "npx webpack-cli build -c ./webpack/popup.webpack.config.js",
-    "bundle-all": "npm run bundle-popup",
-    "tailwind:css": "postcss tailwind/tw.css -o dist/css/tailwind.css",
-    "prod": "npm run bundle-all && npm run tailwind:css"
+    "bundle:popup": "npx webpack-cli build -c ./webpack/popup.webpack.config.js",
+    "bundle:fg": "npx webpack-cli build -c ./webpack/content.webpack.config.js",
+    "bundle:bg": "npx webpack-cli build -c ./webpack/background.webpack.config.js",
+    "bundle:all": "npm run bundle:popup && npm run bundle:fg && npm run bundle:bg",
+    "tailwind:css": "postcss tailwind.global.css -o dist/css/tailwind.css",
+    "build": "npm run bundle:all && npm run tailwind:css"
   },
   "keywords": [],
   "author": "",

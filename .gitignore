@@ -1,11 +1,8 @@
-# prettier
-.prettierrc.json
-
 # images
-assets/
-
-# compiled js code
-ts-dist/
+dist/assets/
 
 # ts dependendencies
 node_modules/
+
+# ts-dist
+ts-dist/

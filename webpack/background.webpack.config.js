@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './ts/popup/index.ts',
+  entry: './ts/background/index.ts',
   mode: 'production',
   module: {
     rules: [
@@ -16,7 +16,7 @@ module.exports = {
     extensions: ['.ts']
   },
   output: {
-    filename: 'popup.js',
+    filename: 'background.js',
     path: path.resolve(__dirname, '../dist/js-bundles')
   }
 };
